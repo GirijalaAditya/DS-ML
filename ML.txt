@@ -1,0 +1,61 @@
+ Types of ML algs:
+------------------------
+1. Supervised
+2. Unsupervised
+3. Reinforcement
+
+1. Supervised :
+ --------------------
+1.1 classification
+1.2 regression
+1.3 ensembling
+
+2. Unsupervised :
+----------------------
+1.1 clustering
+1.2 association
+1.3 dimensionality reduction
+
+ Classification:  Used when output variable is in the form of categories
+-------------------
+ Regression: Used when output variable is in the form of real values
+ ---------------
+Ensemble: Used to combine various ML models which are individually weak
+-------------
+ Clustering: is used to group samples such that objects within the same cluster are 
+-------------
+ more similar to each other
+
+
+ Dimentionality reduction: is used to reduce the number of variables of a dataset 
+----------------------------------
+while ensuring that important information is still conveyed. 
+Done using Feature Extraction methods and Feature Selection methods.
+
+
+ ML algs :
+These for supervised models
+1. Linear regression
+2. Logistic reg
+3. Decision trees
+4. Naive bayes
+5. KNN
+
+These for unsupervised models
+ 1. K-means
+2. Principal component analysis (PCA)
+
+For ensemble there are some different algs....
+Random forsets...
+Adaboost
+
+ For any ML proj :
+1)import req libs
+2)import the datasets
+3)have a look at the rows, columns and content present in the dataset
+4)check for null values.... If present then resolve those
+5)perform data analysis and visualization tasks (EDA and all)..... Also check the correlation of different variables
+6)perform feature eng and feature selection if required
+7)Perform data cleaning operations... Depends on the dataset
+ After this... Train tha data over your ML model.... Get the accuracy and try improving it
+ These are steps for all ML projects....
